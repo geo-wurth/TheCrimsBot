@@ -1,4 +1,4 @@
-﻿import random
+import random
 import re
 import traceback
 import _thread as thread
@@ -960,7 +960,7 @@ def countdown_timer(t):
 def night_life_count_down():
     print(get_datetime(),"We've to wait to continue...")
     waiting_time = TICKETS_TO_RECOVER * 300
-    waiting_time = random.randint(waiting_time, waiting_time * int((PERCENTAGE_OF_ADICIONAL_OF_WAITING + 100) / 100))
+    waiting_time = random.randint(waiting_time, waiting_time * int((PERCENTAGE_OF_ADICIONAL_WAITING + 100) / 100))
     countdown_timer(waiting_time)
     driver.refresh()
     if check_need_login():
@@ -1122,7 +1122,7 @@ while True:
 
             if waiting_time != 0:
                 print(get_datetime(),"We've to wait to continue...")
-                waiting_time = random.randint(waiting_time, (waiting_time * int((PERCENTAGE_OF_ADICIONAL_OF_WAITING + 100) / 100)))
+                waiting_time = random.randint(waiting_time, (waiting_time * int((PERCENTAGE_OF_ADICIONAL_WAITING + 100) / 100)))
                 countdown_timer(waiting_time)
                 print("")
                 virtual_gang = True
