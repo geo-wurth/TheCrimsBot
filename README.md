@@ -13,8 +13,7 @@ pip install html.parser
 pip install playsound
 
 # Chromedriver
-Necessário fazer o download do chromedriver pelo endereço abaixo:
-http://chromedriver.chromium.org/downloads
+Necessário fazer o download do chromedriver pelo endereço abaixo http://chromedriver.chromium.org/downloads
 
 Deve adicionar o caminho do chromedrive à variável do windows no "Path"
 
