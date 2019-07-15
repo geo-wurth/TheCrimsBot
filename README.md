@@ -16,7 +16,7 @@ pip install playsound
 ```
 
 ## Chromedriver
-Necessário fazer o download do chromedriver pelo endereço: [Chromedrive](http://chromedriver.chromium.org/downloads)
+Necessário fazer o download do chromedriver pelo link: [Chromedrive](http://chromedriver.chromium.org/downloads)
 
 Deve adicionar o caminho do chromedrive à variável do windows no "Path"
 
