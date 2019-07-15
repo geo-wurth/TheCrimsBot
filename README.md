@@ -28,4 +28,4 @@ O Bot reconhece se você morrer assassinado ou por overdose (não faz diferencia
 Possui uma configuração para fugir do assassinos das raves, quando localizado outra pessoa na balada, saí imediatamente para não morrer, as funções de atacar qualquer um ou atacar apenas pessoas com menor respeito ainda está sendo implementada.
 
 # Importante!!
-Por algum motivo a biblioteca playsound não funciona se executada através do MS-DOS, então é necessário rodar o programa pelo PythonLauncherque vem junto com a versão do python baixada no site oficial: https://www.python.org/
+Por algum motivo a biblioteca playsound não funciona se executada através do MS-DOS, então é necessário rodar o programa pelo Python Launcher que vem junto com a versão do python baixada no site oficial: https://www.python.org/
